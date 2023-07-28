@@ -3,6 +3,8 @@
 
 Human::Human(std::string name) : name(name) {}
 
+Human::Human() : name("human") {}
+
 char Human::makeMove()
 {
     char move;
