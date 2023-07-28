@@ -8,7 +8,7 @@ Human::Human() : name("Human") {}
 char Human::makeMove()
 {
     char move;
-    std::cout << name << "Enter move:";
+    // std::cout << name << "Enter move:";
     std::cin >> move;
 
     std::cout << move;
