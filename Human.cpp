@@ -11,8 +11,8 @@ char Human::makeMove()
     // std::cout << name << "Enter move:";
     std::cin >> move;
 
-    std::cout << move;
-    return 'S';
+    // std::cout << move;
+    return move;
 }
 
 std::string Human::getName()
