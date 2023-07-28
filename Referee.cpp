@@ -12,7 +12,7 @@ Player *Referee::refGame(Player *player1, Player *player2)
 
     if (winnerMove == move1)
     {
-        std::cout << player1->getName() << " wins!" << std::endl;
+        std::cout << player1->getName() << " Wins" << std::endl;
         return player1;
     }
     else if (winnerMove == move2)

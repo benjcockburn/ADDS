@@ -6,9 +6,11 @@ Human::Human(std::string name) : name(name) {}
 char Human::makeMove()
 {
     char move;
-    std::cout << name << ", enter your move (R for Rock, P for Paper, S for Scissors): ";
+    std::cout << name << "Enter move:";
     std::cin >> move;
-    return toupper(move);
+
+    std::cout << move;
+    return 'S';
 }
 
 std::string Human::getName()
