@@ -3,7 +3,7 @@
 
 Human::Human(std::string name) : name(name) {}
 
-Human::Human() : name("human") {}
+Human::Human() : name("Human") {}
 
 char Human::makeMove()
 {
