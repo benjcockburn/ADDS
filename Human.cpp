@@ -11,7 +11,7 @@ Human::Human(std::string name) : name(name) {}
 
 Human::Human() : name("Human") {}
 
-char Human::makeMove()
+Move Human::makeMove()
 {
     char move;
     // std::cout << name << "Enter move:";

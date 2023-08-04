@@ -1,4 +1,6 @@
 #include "Referee.h"
+#include "Move.h"
+#include "Player.h"
 #include <iostream>
 
 // Worked with people:
@@ -11,26 +13,8 @@ Referee::Referee() {}
 
 Player *Referee::refGame(Player *player1, Player *player2)
 {
-    char move1 = player1->makeMove();
-    char move2 = player2->makeMove();
-
-    char winnerMove = compareMoves(move1, move2);
-
-    if (winnerMove == move1)
-    {
-        // std::cout << player1->getName() << " Wins." << std::endl;
-        return player1;
-    }
-    else if (winnerMove == move2)
-    {
-        // std::cout << player2->getName() << " Wins." << std::endl;
-        return player2;
-    }
-    else
-    {
-        // std::cout << "It's a Tie." << std::endl;
-        return nullptr;
-    }
+    
+    // char winnerMove = compareMoves(move1, move2);
 }
 
 char Referee::compareMoves(char move1, char move2)

@@ -13,7 +13,7 @@ Computer::Computer()
     name = "Computer";
 }
 
-char Computer::makeMove()
+Move Computer::makeMove()
 {
     char moves = 'R';
 

@@ -1,14 +1,14 @@
-#include <iostream>
-#include Human.h
-#include Player.h
-#include Referee.h
-#include Computer.h
+// #include <iostream>
+// #include Human.h
+// #include Player.h
+// #include Referee.h
+// #include Computer.h
 
-int main()
-{
-    Referee referee;
+// int main()
+// {
+//     Referee referee;
 
-    Human player1;
+//     Human player1;
 
-    Computer player2;
-}
+//     Computer player2;
+// }

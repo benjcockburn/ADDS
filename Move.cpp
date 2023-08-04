@@ -4,7 +4,7 @@
 
 Move::Move() {}
 
-std::string Move::getName(){return this->name};
+std::string Move::getName() { return this->name; };
 
 std::string Move::compareMoves(std::string move1, std::string move2)
 {
