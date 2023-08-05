@@ -10,7 +10,7 @@ int main()
     // std::srand(static_cast<unsigned int>(std::time(0)));
 
     // Create players
-    Human humanPlayer("Player 1");
+    Human humanPlayer;
     Computer computerPlayer;
 
     // Create referee
@@ -24,15 +24,15 @@ int main()
 
         if (winner == &humanPlayer)
         {
-            std::cout << humanPlayer.getName() << " wins the game!" << std::endl;
+            std::cout << "Mei Wins." << std::endl;
         }
         else if (winner == &computerPlayer)
         {
-            std::cout << computerPlayer.getName() << " wins the game!" << std::endl;
+            std::cout << "Computer Wins." << std::endl;
         }
         else
         {
-            std::cout << "It's a tie!" << std::endl;
+            std::cout << "It's a Tie." << std::endl;
         }
 
         // Ask if the user wants to play again

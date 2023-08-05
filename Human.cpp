@@ -2,7 +2,7 @@
 #include "Move.h"
 #include <iostream>
 
-Human::Human(std::string name) : name(name) {}
+Human::Human() {}
 
 Move *Human::makeMove()
 {
@@ -12,7 +12,7 @@ Move *Human::makeMove()
     return new Move(move);
 }
 
-std::string Human::getName()
-{
-    return name;
-}
+// std::string Human::getName()
+// {
+//     return name;
+// }
