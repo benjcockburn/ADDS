@@ -9,7 +9,7 @@ public:
     Human();
     Human(std::string input);
     Move *makeMove() override;
-    std::string getName();
+    std::string getName() override;
 
 private:
     std::string name;
