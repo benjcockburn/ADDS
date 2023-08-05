@@ -3,6 +3,9 @@
 #include <iostream>
 
 Human::Human() {}
+Human::Human(std::string input) : name(input) {}
+
+std::string Human::getName() { return name; }
 
 Move *Human::makeMove()
 {
