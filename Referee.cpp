@@ -46,11 +46,11 @@ std::string Referee::compareMoves(std::string move1, std::string move2)
         (move1 == "Scissors" && move2 == "Paper") ||
         (move1 == "Paper" && move2 == "Rock") ||
 
-        (move1 == "Monkey" && move2 == "Ninja" || move2 == "Robot") ||
-        (move1 == "Robot" && move2 == "Ninja" || move2 == "Zombie") ||
-        (move1 == "Pirate" && move2 == "Robot" || move2 == "Monkey") ||
-        (move1 == "Ninja" && move2 == "Pirate" || move2 == "Zombie") ||
-        (move1 == "Zombie" && move2 == "Pirate" || move2 == "Monkey"))
+        (move1 == "Monkey" && (move2 == "Ninja" || move2 == "Robot")) ||
+        (move1 == "Robot" && (move2 == "Ninja" || move2 == "Zombie")) ||
+        (move1 == "Pirate" && (move2 == "Robot" || move2 == "Monkey")) ||
+        (move1 == "Ninja" && (move2 == "Pirate" || move2 == "Zombie")) ||
+        (move1 == "Zombie" && (move2 == "Pirate" || move2 == "Monkey")))
     {
         return move1;
     }
