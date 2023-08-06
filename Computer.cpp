@@ -15,7 +15,7 @@ Move *Computer::makeMove()
     return new Move(move);
 }
 
-// std::string Computer::getName()
-// {
-//     return name;
-// }
+std::string Computer::getName()
+{
+    return "Computer";
+}
